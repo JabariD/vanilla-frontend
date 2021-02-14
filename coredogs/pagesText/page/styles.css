@@ -1,0 +1,68 @@
+body {
+    background-color: lightblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.warning {
+    color: red;
+}
+
+/*  */
+
+#grabber {
+    color: brown;
+}
+
+#src {
+    color: green;
+    font-style: italic;
+}
+
+/*  */
+
+.page3 .header {
+    color: white;
+    background-color: green;
+}
+
+.page3 p {
+    color: violet;
+}
+
+
+
+/*  */
+
+.page4 {
+    background-color: beige;
+}
+
+.page4 h1 {
+    background-color: grey;
+}
+
+.page4 .section1 {
+    border-bottom: 1px solid black;
+}
+
+.page4 h2 {
+    font-style: italic;
+    color: brown;
+}
+
+/*  */
+
+.page5 {
+    background-color: beige;
+}
+
+.page5 h1 {
+    background-color: darkred;
+    color: white;
+}
+
+.wrong {
+    color:red;
+}
+
+/*  */
