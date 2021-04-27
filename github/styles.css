@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(220, 220, 220);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+div.card #booker-image{
+    width: 112px;
+    height: auto;
+    border: 3px solid rgb(211, 211, 211);
+}
+
+div.card #main-button {
+    padding: 10px;
+    background-color: rgb(221, 136, 25);
+    color: white;
+    border: 1px solid rgb(221, 136, 25);
+    border-radius: 10px;
+}
+
+
+div.card {
+    background-color: white;
+    border-radius: 6px;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+
+    line-height: 12px;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding: 1.1em;
+    width: 26em;
+}
+
+div.card h3 {
+    color: grey;
+}
+
+div.card h3#title {
+    color: rgb(255, 179, 37);
+}
+
+div.card.social-media {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div.card.social-media .media {
+    align-self: center;
+    font-size: 1.4em;
+}
+
+div.card.social-media .media .media-label {
+    margin-top: 0.4em;
+}
+
+/* Movie */
+div.card .movie {
+    display: flex;
+    line-height: 1.1em;
+    text-align: left;
+    justify-content: space-around;
+}
+
+div.card .movie .img-container {
+    margin-right: 2em;
+}
+
+/* Movie Card Image */
+div.card .movie img {
+    width: 115px;
+    height: 150px;
+}
+
+a {color:#cccccc;text-decoration: none;}         /* Unvisited link  */
+a:visited {color:#cccccc;text-decoration: none;} /* Visited link    */
+a:hover {color:rgb(255, 179, 37);text-decoration: none;}   /* Mouse over link */
+a:active {color:#cccccc;text-decoration: none;}  /* Selected link   */
+
+/* utils */
+.img-circle {
+    border-radius: 50%;
+}
