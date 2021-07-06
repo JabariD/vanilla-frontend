@@ -1,0 +1,79 @@
+/* Clear's page border */
+body {
+    margin: 0;
+}
+
+/* Header Styles */ 
+header {
+    height: 5%;
+    width: 100%;
+    position: fixed;
+    
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+
+    background-color: white;
+}
+
+/* [REUSABLE] Hamburger menu */
+#reusable-ham-menu {
+    text-align: center;
+    font-size: 2em;
+    position: absolute;
+    top: 30%;
+
+    margin: 0;
+
+    cursor: pointer;
+}
+
+#reusable-youtube-main-header-logo {
+    width: 80px;
+    height: 37px;
+    margin-left: 3em;
+    padding-top: .4em;
+}
+
+#reusable-youtube-search-box {
+
+    width: 30em;
+    height: 2em;
+
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 2.3em;
+
+    padding: .5em;
+
+
+    border: 0;
+    border-radius: 2px;
+
+    background-color: rgb(243, 243, 243);
+}
+
+/* ////////////////////////////////////// */
+
+/* Sidebar */
+aside {
+    height: 93.8%; /* Matches header height, so it can connect */
+    width: 160px;
+    position: fixed;
+    bottom: 0;
+
+    background-color: yellow;
+}
+
+/* ////////////////////////////////////// */
+
+/* Main */
+main {
+    height: 100em;
+    width: 100%;
+
+    background-color: grey;
+}
+
+/* TODO(paytondennis): At a certain level, sidebar should collapse to the left. */
+/* TODO(paytondennis): As we scroll, the header should have opacity value */
